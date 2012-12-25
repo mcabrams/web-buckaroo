@@ -162,7 +162,7 @@ HEADER AND NAVBAR
 
 header.nav-bar {
   height: 6em;
-  border-bottom: 2px #DBDBDB solid;
+  border-bottom: 2px #DBDBDB dotted;
 }
 
 .nav-bar{
@@ -260,11 +260,26 @@ SIDEBAR SECTION
 article{
   margin-top: 2em;
   clear: both;
-  position: relative
+  position: relative;
+  border-bottom: 1px #ccc solid;
+  padding-bottom: 2em;
+}
+
+article:nth-child(2){
+  border-top: 1px #ccc solid;
+  padding-top: 2em;
+}
+
+article:nth-child(2) .date{
+  top: 38px; /* bit of a magic number here, doing
+  it to fix weird date location issue, see what
+  happens upon changing to top: 0px; */
 }
 
 article:last-child {
   margin-bottom: 2em;
+  border-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 article hgroup h2, .article-title {
@@ -274,6 +289,8 @@ article hgroup h2, .article-title {
 .featured {
   margin-top: 2em;
   position: relative;
+  border-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .featured a {
@@ -307,9 +324,7 @@ article hgroup h2, .article-title {
   padding-left: 1em;
   padding-right: 1em;
   display: inline-block;
-  border-radius: 30px;
   position: absolute;
-  right: -32px;
 }
 
 
