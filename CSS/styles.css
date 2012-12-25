@@ -162,7 +162,7 @@ HEADER AND NAVBAR
 
 header.nav-bar {
   height: 6em;
-  border-bottom: 2px #DBDBDB dotted;
+  border-bottom: 2px #DBDBDB solid;
 }
 
 .nav-bar{
@@ -236,7 +236,7 @@ SIDEBAR SECTION
   width: 292px;
   float: left;
   background: white;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 #gravatar {
@@ -263,12 +263,16 @@ article{
   position: relative
 }
 
+article:last-child {
+  margin-bottom: 2em;
+}
+
 article hgroup h2, .article-title {
   text-transform: capitalize;
 }
 
 .featured {
-  margin-top: 1em;
+  margin-top: 2em;
   position: relative;
 }
 
@@ -293,17 +297,22 @@ article hgroup h2, .article-title {
 }
 
 .text-overlay {
-  position: absolute;
   bottom: 3em;
+  /*
   background-color:rgba(255,0,0,1.0);
+  color: white;
+  */
+  background-color: white;
+  color: #333;
   padding-left: 1em;
   padding-right: 1em;
   display: inline-block;
+  border-radius: 30px;
+  position: absolute;
+  right: -32px;
 }
 
-.text-overlay {
-  color: white;
-}
+
 
 .featured img {
   width: 736px;
