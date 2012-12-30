@@ -112,22 +112,22 @@ p {
 }
 
 html {
-font-size:100%;
-overflow-y:scroll;
--webkit-font-smoothing: antialiased;
--webkit-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
+  font-size:100%;
+  overflow-y:scroll;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 html, body {
-margin:0;padding:0;height:100%;
+  margin:0;padding:0;height:100%;
 }
 body {
-color: #333;
-font-family: sans-serif; 
-font-weight: normal;
-font-style: normal;
-line-height: 1.5;
-background: white;
+  color: #333;
+  font-family: sans-serif; 
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  background: white;
 }
 
 .clearfix:after, .wrapper:after {
@@ -156,6 +156,7 @@ a {
 .main-wrapper {
   padding-left: 1.5em;
   padding-right: 1.5em;
+  margin-top: 2em;
 }
 
 /*
@@ -239,7 +240,6 @@ SIDEBAR SECTION
   width: 292px;
   float: left;
   background: white;
-  margin-top: 2em;
 }
 
 #gravatar {
@@ -300,7 +300,6 @@ article hgroup h2, .article-title {
 }
 
 .featured {
-  margin-top: 2em;
   position: relative;
   border-bottom: 0px;
   padding-bottom: 0px;
