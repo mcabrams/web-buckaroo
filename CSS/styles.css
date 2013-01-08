@@ -78,6 +78,13 @@ table{
   ---------------BODY
 \*------------------------------------*/
 
+body{
+    background: url('../img/bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+}
+
 /*------------------------------------*\
   ---------------ELEMENTS
 \*------------------------------------*/
@@ -128,7 +135,6 @@ body {
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
-  background: white;
 }
 
 .clearfix:after, .wrapper:after {
