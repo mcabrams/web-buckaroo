@@ -87,6 +87,7 @@ header h1 {
 
 h1 {
   font-size: 4em;
+  line-height: 1;
 }
 
 h2, nav a {
@@ -303,6 +304,7 @@ article hgroup h2, .article-title {
   position: relative;
   border-bottom: 0px;
   padding-bottom: 0px;
+  margin-top: 0em;
 }
 
 .featured a {
