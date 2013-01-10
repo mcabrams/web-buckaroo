@@ -104,14 +104,10 @@ body{
   ---------------ELEMENTS
 \*------------------------------------*/
 
-header h1 {
-  font-family: 'Josefin Sans', sans-serif;
-  margin-top: .25em;
-}
-
 h1 {
   font-size: 4em;
   line-height: 1.1;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h2, nav a {
@@ -203,6 +199,10 @@ HEADER AND NAVBAR
 header.nav-bar {
   height: 8em;
   border-bottom: 2px #DBDBDB dotted;
+}
+
+.nav-bar h1 {
+  margin-top: .25em;
 }
 
 .nav-bar{
