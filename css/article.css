@@ -1,0 +1,67 @@
+/*------------------------------------*\
+  ----------ARTICLE STYLING-----------
+\*------------------------------------*/
+h2 {
+  margin-top: 1em;
+}
+p{
+  font-size: 1.25em;
+}
+
+.clearfix:after, .story:after, .meat:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.story {
+  margin-bottom: 3em;
+  position: relative;
+  border-bottom: 1px #ccc solid;
+}
+.story .story-image {
+  width: 62em;
+  height: 18.75em;
+}
+
+.story .header-photo {
+  position: relative;
+}
+
+.article-image{
+  float: left;
+  width: 7.75em;
+  height: 7.75em;
+  border-radius: 7.75em;
+}
+.article-header {
+  float: left;
+  width: 500px;
+  margin-right: 2em;
+  margin-left: 5em;
+}
+
+.date {
+  position: absolute;
+  top: 3em;
+  background: white;
+  padding: 0 1.5em 1.5em 1.5em;
+  font-size: .6em;
+}
+
+    /*------------------------------------*\
+      --------ARTICLE MEAT STYLING--------
+    \*------------------------------------*/
+
+.meat {
+  margin-top: 1.5em;
+  clear: both;
+  position: relative;
+  border-bottom: 1px #ccc solid;
+  padding-bottom: 3em;
+}
+
+.meat header {
+  float: left;
+  width: 62em;
+}
