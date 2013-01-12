@@ -1,9 +1,6 @@
 /*------------------------------------*\
   ----------ARTICLE STYLING-----------
 \*------------------------------------*/
-h2 {
-  margin-top: 1em;
-}
 p{
   font-size: 1.25em;
 }
@@ -45,23 +42,31 @@ p{
   position: absolute;
   top: 3em;
   background: white;
-  padding: 0 1.5em 1.5em 1.5em;
-  font-size: .6em;
+}
+
+.date h2 {
+  font-size: 2em;
+  line-height: 1.1;
+  font-family: Josefin Sans;
+  text-align: right;
+  padding: .375em;
+  padding-bottom: .675em; /*magic number to get vert. centered :/  */;
+  display: block;
+  margin-bottom: 0;
 }
 
     /*------------------------------------*\
       --------ARTICLE MEAT STYLING--------
     \*------------------------------------*/
 
-.meat {
-  margin-top: 1.5em;
+.meat h1 {
+  margin-top: .375em; /* 1.5em / 4 */
   clear: both;
   position: relative;
   border-bottom: 1px #ccc solid;
-  padding-bottom: 3em;
+  padding-bottom: .75em; /* 3em / 4 */
 }
 
-.meat header {
-  float: left;
-  width: 62em;
+.meat h2 {
+  margin-top: 1em;
 }
