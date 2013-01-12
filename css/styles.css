@@ -225,10 +225,6 @@ header.nav-bar {
   line-height: 8em;
 }
 
-.nav-bar li#home a {
-  border-bottom: 3px #FF8989 dotted;
-}
-
 .nav-bar a:hover,
 .nav-bar a:focus {
   border-color: #FF8989;

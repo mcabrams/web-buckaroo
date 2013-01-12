@@ -1,3 +1,12 @@
+/*
+NAVBAR
+*/
+
+
+.nav-bar li#home a {
+  border-bottom: 3px #FF8989 dotted;
+}
+
 
 /*
 MAIN SECTION
